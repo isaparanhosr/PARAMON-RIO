@@ -23,7 +23,7 @@
 
 
 <!-- BARRA DE NAVEGAÇÃO -->
-    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-info" style="z-index: 999;">
         <div class="container-fluid coll-11 m-auto">
         <a class="navbar-brand" href="#">PARAMON - RIO </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@
 
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">FAÇA SUA RESERVA</button>
+            <button class="btn btn-success my-2 my-sm-0" type="submit" >FAÇA SUA RESERVA</button>
           </form>
         </div>
     </div>
@@ -164,33 +164,43 @@
 </div>
       <!-- FIM DO QUEM SOMOS -->
       <hr>
-
+      <br>
 <!-- TESTE FORMULÁRIO  -->
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Endereço de email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+<form class="col-11 m-auto">
+  <h2 class="text-center font-poppins">FAÇA SUA RESERVA</h2>
+  <p class="text-center font-poppins"> Preencha o formulário abaixo para entrar em contato com nossa equipe. </p>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Digite seu nome completo">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Digite seu email">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Digite seu telefone + DDD">
+    </div>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Enviar</button>
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Qual tipo de experiência deseja?</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selecte> </option>
+    <option value="1">Experiência Carioca </option>
+    <option value="2"> City Tour - Centro </option>
+    <option value="3"> City Tour Estádio + Jogo</option>
+  </select>
+  <button type="submit" class="btn btn-primary my-1">Enviar</button>
+
+
 </form>
 
 
 
-
 <!-- FIM DE TESTE FORMULÁRIO -->
+<hr>
 
       <!-- INÍCIO DE CONTATOS -->
       <div class="col-11 m-auto">
         <h2 class="text-center font-poppins"> Contato</h2>
+        <br>
         <div class="m-auto d-flex justify-content-center" style="width: fit-content;">
             <!-- Ícone do WhatsApp -->
             <a href="#" class="mx-2">  <!-- Link do WhatsApp -->
@@ -209,9 +219,7 @@
         </div>
     </div>
       <!-- FIM DE CONTATOS -->
-
-      
-
+<br>
       <!-- INÍCIO DO FOOTER -->
       <footer  style="background-color: #b6b6b6;"  class="page-footer font-small blue p-3">
         <div class="text-center">

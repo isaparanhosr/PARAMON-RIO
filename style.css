@@ -7,3 +7,10 @@
 .font-poppins {
     font-family: 'Poppins', sans-serif;
 }
+
+.carousel-item img {
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    height: 600px; /* Altura fixa (ajuste conforme necessário) */
+    object-fit: cover; /* Mantém a proporção e cobre o espaço */
+}
+
