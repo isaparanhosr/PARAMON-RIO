@@ -112,6 +112,13 @@
               <p class="card-text mt-2 font-poppins">Tenha uma experiência de um dia inteiro planejado para encantar e 
                 emocionar com a beleza dos pontos turísticos do Rio. 
                 Durante o passeio, você visitará alguns dos locais mais famosos do mundo como o Cristo Redentor e o Pão de Açúcar, além das belas praias cariocas.</p>
+
+                <p class="card-text font-poppins">
+                  <strong>Preço:</strong><br>
+                  - Cartão de Crédito: R$ 500,00<br>
+                  - PIX: R$ 450,00 (10% de desconto)
+              </p>
+
               <button type="button" class="btn btn-primary mt-auto font-poppins" data-toggle="modal" data-target="#exampleModal">
                   Veja mais
               </button>
@@ -127,6 +134,12 @@
               <h5 class="card-title font-poppins">City Tour - Centro  </h5>
               <p class="card-text font-poppins">Um passeio pelo centro do Rio cheio de história e cultura.
                  Visitaremos alguns dos lugares mais antigos e relevantes da história do Brasil, como o Paço Imperial, Teatro Municipal e a Confeitaria Colombo.</p>
+                 <p class="card-text font-poppins">
+                  <br>
+                  <strong>Preço:</strong><br>
+                  - Cartão de Crédito: R$ 400,00<br>
+                  - PIX: R$ 360,00 (10% de desconto)
+              </p>
               <button type="button" class="btn btn-primary mt-auto font-poppins" data-toggle="modal" data-target="#exampleModal">
                   Veja mais
               </button>
@@ -141,6 +154,14 @@
           <div class="card-body d-flex flex-column">
               <h5 class="card-title font-poppins"> City Tour Estádio + Jogo </h5>
               <p class="card-text font-poppins"> Conheça o museu e tenha um a experiência de assistir a uma partida de futebol em um dos mais famosos estádios do mundo.</p>
+
+              <p class="card-text font-poppins">
+
+                <br><br>
+                <strong>Preço:</strong><br>
+                - Cartão de Crédito: R$ 450,00<br>
+                - PIX: R$ 405,00 (10% de desconto)
+            </p>
               <button type="button" class="btn btn-primary mt-auto font-poppins" data-toggle="modal" data-target="#exampleModal">
                   Veja mais
               </button>
@@ -165,36 +186,42 @@
       <!-- FIM DO QUEM SOMOS -->
       <hr>
       <br>
-<!-- TESTE FORMULÁRIO  -->
-<form class="col-11 m-auto">
-  <h2 class="text-center font-poppins">FAÇA SUA RESERVA</h2>
-  <p class="text-center font-poppins"> Preencha o formulário abaixo para entrar em contato com nossa equipe. </p>
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Digite seu nome completo">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Digite seu email">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Digite seu telefone + DDD">
-    </div>
+
+<!-- FORMULÁRIO  -->
+<div class="card col-11 m-auto" style="width: 60rem;">
+  <div class="card-body">
+    <form class="col-11 m-auto">
+      <h2 class="text-center font-poppins">FAÇA SUA RESERVA</h2>
+      <p class="text-center font-poppins"> Preencha o formulário abaixo para entrar em contato com nossa equipe. </p>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Digite seu nome completo">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Digite seu email">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Digite seu telefone + DDD">
+        </div>
+      </div>
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Qual tipo de experiência deseja?</label>
+      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <option selecte> </option>
+        <option value="1">Experiência Carioca </option>
+        <option value="2"> City Tour - Centro </option>
+        <option value="3"> City Tour Estádio + Jogo</option>
+      </select>
+      <button type="submit" class="btn btn-primary my-1">Enviar</button>
+    
+    
+    </form>
   </div>
-  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Qual tipo de experiência deseja?</label>
-  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selecte> </option>
-    <option value="1">Experiência Carioca </option>
-    <option value="2"> City Tour - Centro </option>
-    <option value="3"> City Tour Estádio + Jogo</option>
-  </select>
-  <button type="submit" class="btn btn-primary my-1">Enviar</button>
+</div>
 
 
-</form>
+<!-- FIM DO FORMULÁRIO -->
 
 
-
-<!-- FIM DE TESTE FORMULÁRIO -->
 <hr>
 
       <!-- INÍCIO DE CONTATOS -->
@@ -220,6 +247,8 @@
     </div>
       <!-- FIM DE CONTATOS -->
 <br>
+
+
       <!-- INÍCIO DO FOOTER -->
       <footer  style="background-color: #b6b6b6;"  class="page-footer font-small blue p-3">
         <div class="text-center">
